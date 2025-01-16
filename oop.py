@@ -60,7 +60,7 @@ print(f'Area is {square2.area()}, Perimeter is {square2.perimeter()}')
 # 3
 class TaxiRide:
     def __init__(self, rate_per_km):
-        self.rate_per_km = rate_per_km  # value in € (e.g. €2)
+        self.rate_per_km = rate_per_km  # value in € 
         self.distance = 0
         self.fare = 0
 
@@ -133,7 +133,7 @@ class Book():
         self.title = title
         self.author = author
         self.pages = pages
-        self.price = price  # Added price attribute
+        self.price = price  # price attribute
         self.current_page = 1
         self.is_open = False
 
@@ -150,7 +150,7 @@ class Book():
         print(f"My favourite book is {self.title}.")
         print(f"Written by {self.author}.")
         print(f"This book has {self.pages} pages.")
-        print(f"The price of the book is €{self.price}.")  # Displaying the price
+        print(f"The price of the book is €{self.price}.")  # displaying the price
         if self.is_open:
             print(f"I am just reading the book, page {self.current_page}.")
         else:
@@ -161,7 +161,7 @@ def main():
     # object creation based on the Book class with price
     favourite_book = Book(
         "Harry Potter and the Philosopher's Stone",
-        "J. K. Rowling", 223, 48)  # Price is added here
+        "J. K. Rowling", 223, 48)  
 
     # object manipulation
     favourite_book.open()
